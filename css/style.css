@@ -19,6 +19,14 @@ html {
 .main-header {
     background-color: black;
     padding: 20px 0px;
+    text-align: right;
+}
+
+/* Span header */
+.main-header span {
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 /* Main */
