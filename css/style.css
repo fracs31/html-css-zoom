@@ -33,9 +33,27 @@ html {
     flex-wrap: wrap;
 }
 
+/* Colonna */
 .col-2 {
     flex-basis: calc( 100% * (2 / 14) );
-    padding: 20px;
+    height: 150px;
+    width: 250px;
+    position: relative;
+}
+
+/* Immagine profilo */
+.user-image img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Informazioni utente */
+.user-info {
+    background: rgba(142, 131, 131, 0.5);
+    padding: 5px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 /* Footer */
@@ -46,14 +64,14 @@ html {
 
 /* DEBUG */
 
-.container {
+.debug .container {
     border: 1px dashed white;
 }
 
-.row {
+.debug .row {
     border: 1px solid red;
 }
 
-.col-2 {
+.debug .col-2 {
     border: 1px dashed aqua;
 }
