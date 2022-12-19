@@ -77,7 +77,28 @@ html {
     justify-content: space-between;
 }
 
+.audio-video {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
 
+.actions {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.icon span {
+    font-size: 28px;
+    text-align: center;
+}
+
+.option-name span {
+    font-size: 14px;
+}
 
 /* DEBUG */
 
