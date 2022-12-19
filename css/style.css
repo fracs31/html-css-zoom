@@ -45,11 +45,13 @@ html {
 .row {
     display: flex;
     flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px;
 }
 
 /* Colonna */
 .col-2 {
-    flex-basis: calc( 100% * (2 / 14) );
+    flex-basis: calc( 100vw * (2 / 14) );
     height: 150px;
     width: 250px;
     position: relative;
