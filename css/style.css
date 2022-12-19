@@ -18,15 +18,21 @@ html {
 /* Header */
 .main-header {
     background-color: black;
-    padding: 20px 0px;
     text-align: right;
+    padding: 5px;
+}
+
+/* View */
+.view {
+    padding: 5px;
 }
 
 /* Span header */
-.main-header span {
+.view span {
     background-color: #4A4A4A;
     padding: 5px;
     border-radius: 4px;
+    font-size: 14px;
 }
 
 /* Main */
@@ -67,8 +73,11 @@ html {
 /* Footer */
 .page-footer {
     background-color: #222222;
-    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 /* DEBUG */
 
@@ -82,4 +91,16 @@ html {
 
 .debug .col-2 {
     border: 1px dashed aqua;
+}
+
+.debug .audio-video {
+    border: 1px solid aquamarine;
+}
+
+.debug .actions {
+    border: 1px solid tomato
+}
+
+.debug .end-meeting {
+    border: 1px solid fuchsia;
 }
