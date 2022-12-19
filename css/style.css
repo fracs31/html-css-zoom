@@ -77,6 +77,7 @@ html {
     justify-content: space-between;
 }
 
+/* Microfono e videocamera */
 .audio-video {
     width: 150px;
     display: flex;
@@ -84,44 +85,33 @@ html {
     text-align: center;
 }
 
+/* Azioni */
 .actions {
-    width: 500px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
+/* Pulsante per condividere lo schermo */
+.share-screen {
+    color: #4BC800;
+}
+
+/* Span contenenti le icone nel footer */
 .icon span {
     font-size: 28px;
     text-align: center;
 }
 
+/* Nome delle azioni */
 .option-name span {
     font-size: 14px;
 }
 
-/* DEBUG */
-
-.debug .container {
-    border: 1px dashed white;
-}
-
-.debug .row {
-    border: 1px solid red;
-}
-
-.debug .col-2 {
-    border: 1px dashed aqua;
-}
-
-.debug .audio-video {
-    border: 1px solid aquamarine;
-}
-
-.debug .actions {
-    border: 1px solid tomato
-}
-
-.debug .end-meeting {
-    border: 1px solid fuchsia;
+/* Pulsante per terminare la chiamata */
+.end-meeting {
+    color: red;
+    background-color: #4A4A4A;
+    font-size: 14px;
 }
